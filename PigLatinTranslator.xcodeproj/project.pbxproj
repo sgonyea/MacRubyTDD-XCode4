@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		E55C6811138F6D4100ED3763 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55C6810138F6D4100ED3763 /* Cocoa.framework */; };
 		E55C681B138F6D4100ED3763 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E55C6819138F6D4100ED3763 /* InfoPlist.strings */; };
+		E55C6824138F6D8600ED3763 /* PLTranslator.h in Headers */ = {isa = PBXBuildFile; fileRef = E55C6822138F6D8600ED3763 /* PLTranslator.h */; };
+		E55C6825138F6D8600ED3763 /* PLTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = E55C6823138F6D8600ED3763 /* PLTranslator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,9 +19,11 @@
 		E55C6813138F6D4100ED3763 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		E55C6814138F6D4100ED3763 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		E55C6815138F6D4100ED3763 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		E55C6818138F6D4100ED3763 /* PigLatinTranslator-Info.plist */ = {isa = PBXFileReference; path = "PigLatinTranslator-Info.plist"; sourceTree = "<group>"; };
+		E55C6818138F6D4100ED3763 /* PigLatinTranslator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PigLatinTranslator-Info.plist"; sourceTree = "<group>"; };
 		E55C681A138F6D4100ED3763 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E55C681C138F6D4100ED3763 /* PigLatinTranslator-Prefix.pch */ = {isa = PBXFileReference; path = "PigLatinTranslator-Prefix.pch"; sourceTree = "<group>"; };
+		E55C681C138F6D4100ED3763 /* PigLatinTranslator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PigLatinTranslator-Prefix.pch"; sourceTree = "<group>"; };
+		E55C6822138F6D8600ED3763 /* PLTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLTranslator.h; sourceTree = "<group>"; };
+		E55C6823138F6D8600ED3763 /* PLTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLTranslator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				E55C6817138F6D4100ED3763 /* Supporting Files */,
+				E55C6822138F6D8600ED3763 /* PLTranslator.h */,
+				E55C6823138F6D8600ED3763 /* PLTranslator.m */,
 			);
 			path = PigLatinTranslator;
 			sourceTree = "<group>";
@@ -95,6 +101,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E55C6824138F6D8600ED3763 /* PLTranslator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E55C6825138F6D8600ED3763 /* PLTranslator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
