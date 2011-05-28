@@ -11,7 +11,24 @@
 		E55C681B138F6D4100ED3763 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E55C6819138F6D4100ED3763 /* InfoPlist.strings */; };
 		E55C6824138F6D8600ED3763 /* PLTranslator.h in Headers */ = {isa = PBXBuildFile; fileRef = E55C6822138F6D8600ED3763 /* PLTranslator.h */; };
 		E55C6825138F6D8600ED3763 /* PLTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = E55C6823138F6D8600ED3763 /* PLTranslator.m */; };
+		E55C682C138F6EBA00ED3763 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55C6810138F6D4100ED3763 /* Cocoa.framework */; };
+		E55C6832138F6EBA00ED3763 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E55C6830138F6EBA00ED3763 /* InfoPlist.strings */; };
+		E55C6835138F6EBA00ED3763 /* PigLatinTranslatorSpec.h in Resources */ = {isa = PBXBuildFile; fileRef = E55C6834138F6EBA00ED3763 /* PigLatinTranslatorSpec.h */; };
+		E55C6837138F6EBA00ED3763 /* PigLatinTranslatorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = E55C6836138F6EBA00ED3763 /* PigLatinTranslatorSpec.m */; };
+		E55C683E138F711300ED3763 /* spec_runner.rb in Resources */ = {isa = PBXBuildFile; fileRef = E55C683D138F711300ED3763 /* spec_runner.rb */; };
+		E55C684013900C9200ED3763 /* PLTranslator_spec.rb in Resources */ = {isa = PBXBuildFile; fileRef = E55C683F13900C9200ED3763 /* PLTranslator_spec.rb */; };
+		E55C684113900D4600ED3763 /* PigLatinTranslator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55C680D138F6D4100ED3763 /* PigLatinTranslator.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E55C683B138F6EF500ED3763 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E55C6803138F6D4100ED3763 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E55C680C138F6D4100ED3763;
+			remoteInfo = PigLatinTranslator;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E55C680D138F6D4100ED3763 /* PigLatinTranslator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PigLatinTranslator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +41,14 @@
 		E55C681C138F6D4100ED3763 /* PigLatinTranslator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PigLatinTranslator-Prefix.pch"; sourceTree = "<group>"; };
 		E55C6822138F6D8600ED3763 /* PLTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLTranslator.h; sourceTree = "<group>"; };
 		E55C6823138F6D8600ED3763 /* PLTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLTranslator.m; sourceTree = "<group>"; };
+		E55C682B138F6EBA00ED3763 /* PigLatinTranslatorSpec.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PigLatinTranslatorSpec.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55C682F138F6EBA00ED3763 /* PigLatinTranslatorSpec-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PigLatinTranslatorSpec-Info.plist"; sourceTree = "<group>"; };
+		E55C6831138F6EBA00ED3763 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E55C6833138F6EBA00ED3763 /* PigLatinTranslatorSpec-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PigLatinTranslatorSpec-Prefix.pch"; sourceTree = "<group>"; };
+		E55C6834138F6EBA00ED3763 /* PigLatinTranslatorSpec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PigLatinTranslatorSpec.h; sourceTree = "<group>"; };
+		E55C6836138F6EBA00ED3763 /* PigLatinTranslatorSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PigLatinTranslatorSpec.m; sourceTree = "<group>"; };
+		E55C683D138F711300ED3763 /* spec_runner.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = spec_runner.rb; sourceTree = "<group>"; };
+		E55C683F13900C9200ED3763 /* PLTranslator_spec.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = PLTranslator_spec.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +60,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E55C6827138F6EBA00ED3763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55C684113900D4600ED3763 /* PigLatinTranslator.framework in Frameworks */,
+				E55C682C138F6EBA00ED3763 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -42,15 +76,17 @@
 			isa = PBXGroup;
 			children = (
 				E55C6816138F6D4100ED3763 /* PigLatinTranslator */,
+				E55C682D138F6EBA00ED3763 /* PigLatinTranslatorSpec */,
 				E55C680F138F6D4100ED3763 /* Frameworks */,
 				E55C680E138F6D4100ED3763 /* Products */,
+				E55C680D138F6D4100ED3763 /* PigLatinTranslator.framework */,
 			);
 			sourceTree = "<group>";
 		};
 		E55C680E138F6D4100ED3763 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E55C680D138F6D4100ED3763 /* PigLatinTranslator.framework */,
+				E55C682B138F6EBA00ED3763 /* PigLatinTranslatorSpec.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +130,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E55C682D138F6EBA00ED3763 /* PigLatinTranslatorSpec */ = {
+			isa = PBXGroup;
+			children = (
+				E55C6834138F6EBA00ED3763 /* PigLatinTranslatorSpec.h */,
+				E55C6836138F6EBA00ED3763 /* PigLatinTranslatorSpec.m */,
+				E55C682E138F6EBA00ED3763 /* Supporting Files */,
+				E55C683D138F711300ED3763 /* spec_runner.rb */,
+				E55C683F13900C9200ED3763 /* PLTranslator_spec.rb */,
+			);
+			path = PigLatinTranslatorSpec;
+			sourceTree = "<group>";
+		};
+		E55C682E138F6EBA00ED3763 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E55C682F138F6EBA00ED3763 /* PigLatinTranslatorSpec-Info.plist */,
+				E55C6830138F6EBA00ED3763 /* InfoPlist.strings */,
+				E55C6833138F6EBA00ED3763 /* PigLatinTranslatorSpec-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -126,6 +184,25 @@
 			productReference = E55C680D138F6D4100ED3763 /* PigLatinTranslator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		E55C682A138F6EBA00ED3763 /* PigLatinTranslatorSpec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E55C6838138F6EBA00ED3763 /* Build configuration list for PBXNativeTarget "PigLatinTranslatorSpec" */;
+			buildPhases = (
+				E55C6826138F6EBA00ED3763 /* Sources */,
+				E55C6827138F6EBA00ED3763 /* Frameworks */,
+				E55C6828138F6EBA00ED3763 /* Resources */,
+				E55C6829138F6EBA00ED3763 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E55C683C138F6EF500ED3763 /* PBXTargetDependency */,
+			);
+			name = PigLatinTranslatorSpec;
+			productName = PigLatinTranslatorSpec;
+			productReference = E55C682B138F6EBA00ED3763 /* PigLatinTranslatorSpec.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -144,6 +221,7 @@
 			projectRoot = "";
 			targets = (
 				E55C680C138F6D4100ED3763 /* PigLatinTranslator */,
+				E55C682A138F6EBA00ED3763 /* PigLatinTranslatorSpec */,
 			);
 		};
 /* End PBXProject section */
@@ -157,7 +235,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E55C6828138F6EBA00ED3763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55C6832138F6EBA00ED3763 /* InfoPlist.strings in Resources */,
+				E55C6835138F6EBA00ED3763 /* PigLatinTranslatorSpec.h in Resources */,
+				E55C683E138F711300ED3763 /* spec_runner.rb in Resources */,
+				E55C684013900C9200ED3763 /* PLTranslator_spec.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E55C6829138F6EBA00ED3763 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/Users/sgonyea/.rvm/bin/macruby-0.10-xcode";
+			shellScript = "export DYLD_FRAMEWORK_PATH=$BUILT_PRODUCTS_DIR\n\n$HOME/.rvm/bin/rvm macruby exec \"ruby $SOURCE_ROOT/PigLatinTranslatorSpec/spec_runner.rb\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E55C6808138F6D4100ED3763 /* Sources */ = {
@@ -168,13 +273,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E55C6826138F6EBA00ED3763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55C6837138F6EBA00ED3763 /* PigLatinTranslatorSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E55C683C138F6EF500ED3763 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E55C680C138F6D4100ED3763 /* PigLatinTranslator */;
+			targetProxy = E55C683B138F6EF500ED3763 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E55C6819138F6D4100ED3763 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E55C681A138F6D4100ED3763 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E55C6830138F6EBA00ED3763 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E55C6831138F6EBA00ED3763 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -224,9 +353,11 @@
 				FRAMEWORK_VERSION = A;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PigLatinTranslator/PigLatinTranslator-Prefix.pch";
 				INFOPLIST_FILE = "PigLatinTranslator/PigLatinTranslator-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -242,11 +373,52 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PigLatinTranslator/PigLatinTranslator-Prefix.pch";
 				INFOPLIST_FILE = "PigLatinTranslator/PigLatinTranslator-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		E55C6839138F6EBA00ED3763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PigLatinTranslatorSpec/PigLatinTranslatorSpec-Prefix.pch";
+				INFOPLIST_FILE = "PigLatinTranslatorSpec/PigLatinTranslatorSpec-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E55C683A138F6EBA00ED3763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PigLatinTranslatorSpec/PigLatinTranslatorSpec-Prefix.pch";
+				INFOPLIST_FILE = "PigLatinTranslatorSpec/PigLatinTranslatorSpec-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -267,6 +439,14 @@
 			buildConfigurations = (
 				E55C6820138F6D4100ED3763 /* Debug */,
 				E55C6821138F6D4100ED3763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E55C6838138F6EBA00ED3763 /* Build configuration list for PBXNativeTarget "PigLatinTranslatorSpec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E55C6839138F6EBA00ED3763 /* Debug */,
+				E55C683A138F6EBA00ED3763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
