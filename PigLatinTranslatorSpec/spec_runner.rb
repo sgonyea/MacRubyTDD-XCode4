@@ -4,9 +4,9 @@
 #
 
 # Include the Bacon libraries
-require "rubygems"
-require "pathname"
-require "bacon"
+require 'rubygems'
+require 'pathname'
+require 'bacon'
 
 # Tell MacRuby where to find our framework
 framework "#{ENV['BUILT_PRODUCTS_DIR']}/PigLatinTranslator.framework"
