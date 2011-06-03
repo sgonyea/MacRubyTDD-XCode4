@@ -260,7 +260,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = "/Users/sgonyea/.rvm/bin/macruby-0.10-xcode";
-			shellScript = "export DYLD_FRAMEWORK_PATH=$BUILT_PRODUCTS_DIR\n\n$HOME/.rvm/bin/rvm macruby exec \"ruby $SOURCE_ROOT/PigLatinTranslatorSpec/spec_runner.rb\"\n";
+			shellScript = "#!/Users/sgonyea/.rvm/bin/macruby-0.10-xcode\n#\n#  spec_runner.rb\n#  PigLatinTranslator\n#\n\n# Include the Bacon libraries\nrequire 'rubygems'\nrequire 'pathname'\nrequire 'bacon'\n\n# Tell MacRuby where to find our framework\nframework \"#{ENV['BUILT_PRODUCTS_DIR']}/PigLatinTranslator.framework\"\n\n# Setup Bacon to report on tests at the end\nBacon.summary_on_exit\n\n# Load all of the *_spec test files in the test bundle\nDir.glob('./**/*_spec.rb').each do |test_file|\nrequire test_file\nend\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -441,6 +441,7 @@
 				E55C6821138F6D4100ED3763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E55C6838138F6EBA00ED3763 /* Build configuration list for PBXNativeTarget "PigLatinTranslatorSpec" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +450,7 @@
 				E55C683A138F6EBA00ED3763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
